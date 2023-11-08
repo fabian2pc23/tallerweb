@@ -1,0 +1,334 @@
+section{
+  width: 100%;
+}
+.tablah{
+  color: white;
+ font-style: italic;
+}
+
+#fachadaa{
+    width: 380px;
+  height: 250px;
+padding: 15px 150px;
+}
+
+.izquierda, .horarios {
+
+  width: 50%;
+  float: left;
+
+  font-size: 25px;
+ justify-content: center;
+  align-items: center;
+}
+
+.xd{
+  float: left;
+  text-align: center;
+    background-color: #585858;
+  width: 100%;
+  }
+
+footer{
+  color: #000;
+  font-size: 0.85em;
+  width: 100%;
+}
+
+
+* {
+    padding: 0px;
+  margin:0px ;
+    text-decoration: none;
+    font-family: var(--fuenteLetraGeneral);
+}
+
+:root {
+    --negro: #ececec;
+    --blanco: #303030;
+    --borde-negro: #FFFFFF50;
+    --fuenteLetraGeneral: "Roboto", sans-serif;
+}
+header {
+    display: flex;
+    align-items: center;
+    padding: 0px 80pz;
+    background-color: rgb(145, 179, 23);
+    max-width: 100%;
+    vertical-align: middle;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+#icono {
+    max-width: 100%;
+    width: 100px;
+    padding: 10px 30px 10px 100px;
+}
+
+ul {
+    list-style-type: none;
+}
+nav li {
+    display: inline-block; /* Muestra los elementos en línea (horizontal) */
+    margin-right: 10px; /* Espacio entre elementos del menú */
+    background-color: transparent;
+    border-radius: 0.25em;
+  }
+.encabezado-33{
+    display: flex;
+    padding: 0px 500px;
+
+}
+
+#carrusel {
+    background-size: 0px;
+width: 100%;
+height: 100%;
+  
+}
+#imagen-carrusel{
+width: 100%;
+height: 100%;
+}
+
+
+#barra-navegacion{
+    display: flex;
+    
+}
+#siguiente{
+    display: flex;
+    background-color: transparent;
+    align-content: end;
+}
+#subtitulo {
+    display: flex;
+    justify-content: center;
+    padding: 50px 100px 40px;
+    color: #ff6720;
+    font-size: 35px;
+}
+
+.imagen-texto {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 0;
+    overflow: hidden;
+    padding: 0px 0px 100px;
+    
+}
+
+.imagen-texto-container {
+    display: inline-block;
+    width: 100%;
+    max-width: 15.625rem;
+    text-align: center;
+    margin: 40px;
+ 
+}
+/*FOOTER*/
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ede1da;
+    color: black;
+    padding: 40px;
+    text-align: center;
+}
+
+.logo-footer {
+    width: 7rem;
+}
+
+.separador-footer {
+    padding: 1rem 0;
+}
+
+.footer-contenedor {
+    text-align: center;
+}
+
+.contenedor-iconos i {
+    font-size: 2rem;
+    padding: 0.3rem;
+}
+/*FABIANA*/
+.cuadros h2 {
+    font-size: 19;
+    color: yellow;
+  }
+  .cuadros{
+  width: 90%;
+padding: 20px 70px;
+
+  }
+
+  nav li {
+    display: inline-block; /* Muestra los elementos en línea (horizontal) */
+    margin-right: 10px; /* Espacio entre elementos del menú */
+   
+    border-radius: 0.25em;
+  }
+
+  .cuadros table   td {
+    width: 730px; /* Ancho en píxeles o unidades CSS */
+    height: 320px; /* Alto en píxeles o unidades CSS */
+    border: 0px solid black; /* Bordes para las celdas (opcional) */
+    text-align: center; /* Alineación del contenido (opcional) */
+    background-color: #7B7170;
+      border-radius: 0.70em;
+  }
+
+    .tab{
+    width: 100%;
+    height: 100%;
+    color: white; /* Establece la altura máxima de la imagen al 100% del contenedor (celda) */
+    display: block; /* Elimina cualquier espacio adicional alrededor de la imagen */
+        border-radius: 0.70em;
+  
+  }
+  
+   h3{
+    font-family:  "Segoe UI";
+    font-size: 330%;
+  
+  }
+  h1{
+      font-family:  "Segoe UI";
+    font-size: 300%;
+  }
+  h3{
+    font-family:  "Segoe UI";
+    font-size: 150%;
+    color: yellow;
+  
+  }
+  
+  .relleno{
+    background: linear-gradient(#1E2329,#3C4146,#131415);
+  }
+  
+  a[title="botton1"]{
+    margin: 15px 78px;
+    background-color: yellow;
+      color: black;
+      text-decoration: none; /* Para eliminar el subrayado del enlace */
+      padding: 12px 22px; /* Agrega relleno para hacerlo más visible */
+      border: 1px solid #000; /* Agrega un borde para hacerlo más distintivo */
+      border-radius: 5px; /* Redondea las esquinas del enlace */
+      display: inline-block; /* Para que el enlace se comporte como un bloque */
+      float: center;
+  
+    transform: scale(1.2);
+  
+  }
+  
+  .plan1{
+    float: left;
+    padding: 13px 130px 0px  }
+  .plan2{
+    float: left;
+    padding: 13px 20px;
+  }
+  .plan3{
+    float: left;
+    padding: 13px 50px ;
+  }
+  .plan1 img:hover{
+  transition: 0.5s;
+  object-fit: cover;
+    transform: scale(1.2);
+  }
+  .plan2 img:hover{
+  transition: 0.5s;
+  object-fit: cover;
+    transform: scale(1.2);
+  }
+  .plan3 img:hover{
+  transition: 0.5s;
+  object-fit: cover;
+    transform: scale(1.2);
+  }
+  /*
+  .izquierda{
+    float: left;
+    padding:  4.5% 9%;
+  
+  }
+  .horarios{
+  float: left;
+  padding:   6% 5%;
+  font-size: 25px;
+  color: white;
+  }
+  .xd{
+  float: left;
+  padding: 1% 28%;
+  text-align: center;
+    background-color: #585858;
+  
+  }
+  */
+  
+  
+  
+  
+    .grupales {
+              border-collapse: collapse; /* Combina los bordes de las celdas para que no haya espacios entre ellas */
+              text-align: center;
+              margin: auto;
+          }
+          .grupales td {
+              border: 1px solid black; /* Establece un borde en todas las celdas */
+              padding: 23px; /* Añade espacio alrededor del contenido de las celdas */
+              font-size: 18px;
+          background-color: #BD49C2;
+          }
+  
+          .grupales th {
+              background-color: #D9CD59; /* Establece un color de fondo para los encabezados */
+              border: 1px solid black; /* Borde para los encabezados */
+              font-size: 28px;
+              font-style: italic;
+              padding: 9px; /* Espacio alrededor del contenido de los encabezados */
+          }
+  
+  
+  
+  table {
+              border-collapse: separate; /* Asegura que el espaciado sea efectivo */
+              border-spacing: 30px; /* Define el espaciado entre las celdas (en píxeles o unidades CSS) */
+          }
+  .uno {
+   background-color: #3C4146;
+  
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+   font-family:  "Segoe UI";
+     color: white;
+  
+   padding: 50px 30px;
+  }
+  .dos {
+    background-color: #585858;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+     font-family:  "Segoe UI";
+    color: white;
+     padding: 50px 30px;
+  
+  }
+  
+  
+  h2{
+    font-style: fantasy;
+  color: #DFDF28;
+      text-transform: uppercase;
+  }
